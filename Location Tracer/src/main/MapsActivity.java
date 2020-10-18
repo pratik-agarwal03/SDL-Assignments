@@ -122,8 +122,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             lReq.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
             lReq.setInterval(30000);
             lReq.setFastestInterval(5000);
-
-            System.out.println("HII");
         }
     }
 
